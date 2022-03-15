@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 news pulls from the following.
 
-.https://www.pokemon.com/us/pokemon-news/#/pokemon-tcg-news
-.https://www.pokebeach.com/
-.https://www.pokeguardian.com/
+-https://www.pokemon.com/us/pokemon-news/#/pokemon-tcg-news
+-https://www.pokebeach.com/
+-https://www.pokeguardian.com/
 
 ## Development server
 
