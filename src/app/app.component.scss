@@ -1,6 +1,7 @@
 .flexbox-wrapper{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 app-newsblock{
     border: 1px solid black;

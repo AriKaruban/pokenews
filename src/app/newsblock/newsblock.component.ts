@@ -6,10 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./newsblock.component.scss']
 })
 export class NewsblockComponent implements OnInit {
-  @Input() name=''
+  @Input() headerinfo={name:"",url:"",news:[]}
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.headerinfo.news)
   }
 
 }

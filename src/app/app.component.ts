@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pokenews';
-  newsOutlets=[{name:"offical Pokemon TCG",url:"https://www.pokemon.com/us/pokemon-news/#/pokemon-tcg-news"},
-{name:"PokeBeach",url:"https://www.pokebeach.com/"},{name:"PokeGuardian",url:"https://www.pokeguardian.com/"}]
+  newsOutlets=[{name:"offical Pokemon TCG",url:"https://www.pokemon.com/us/pokemon-news/#/pokemon-tcg-news",news:[]},
+    {name:"PokeBeach",url:"https://www.pokebeach.com/",news:[]},{name:"PokeGuardian",url:"https://www.pokeguardian.com/",news:[]}]
 }
