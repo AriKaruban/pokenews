@@ -3,7 +3,7 @@ const getNews=require('./getNews.js').getNews
 const app=express();
 const path=require('path');
 const port=process.env.PORT || 3000;
-app.use('/',express.static(path.join(__dirname,'../','compiled')));
+app.use('/',express.static(path.join(__dirname,'../','compiled'))); //Serve the compiled/built angular app
 
 app.listen(port,()=>{
     // console.log(__dirname);
